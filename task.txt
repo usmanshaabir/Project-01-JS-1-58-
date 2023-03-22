@@ -1,0 +1,15 @@
+1) Create a login page.
+=> login page will be have fullName, email, password.
+=> fullName should be your full name
+=> User can be loggedin with just admin@user.com and password 123456.
+=> if user enter wrong email or password. The user will be notified about wrong email and wrong password. (Use toastify js).
+
+WIFI>>	SSID: Saylani Staff	Pass: Mikrotik@210260
+
+After successfully login. user can see home page. OTHERWISE NO.
+2) Create a home page.
+=> On the header user can see his full name.
+=> User can add city to an cities collection. (Show toastify that a new city has been added)
+=> If the city is already in the list show notification that this is already in the collection.
+=> User can see all the cities in the home page.
+=> User can see all the cities in console log.

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <!-- BootStrap CSS -->
+  <link rel="stylesheet" href="./Bootstrap/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./style/style.css">
+  <!-- Toastify  -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body>
+  <!-- Header  -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-top">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">Assignment</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">Chapter 39 to 42</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Complete Header  -->
+  <!-- Main -->
+  <main class="pb-5">
+    <div class="section">
+      <div class="container">
+        <!-- Top Heading -->
+        <div>
+          <h1 class="text-center pt-5 pb-5 border-bottom">Chapter # 1 to 58 | All Chapter 
+          </h1>
+        </div>
+
+        <!-- Input And Output -->
+        <div class="row">
+          <div class="col-md-6 mt-5">
+            <h4 class="text-center">Input Area</h4>
+            <label for="" class="fs-5">Add Your City Name</label>
+           <input type="name" name="name" id="inputValue" class="w-100"/>
+           <div class="text-center mt-3">
+            <button class="btn btn-danger" onclick="showTopCities()">Submit</button>
+          </div>
+          </div>
+          <div class="col-md-6 mt-5">
+            <h4 class="text-center">Output / Result</h4>
+            <div class="output d-flex justify-content-center align-items-center flex-column ">
+              <h4 id="output">
+
+              </h4>
+            </div>
+            <div class="text-center mt-3">
+              <button class="btn btn-outline-secondary" onclick="clearOutput()">Clear Output</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Complete Main -->
+  <!-- Footer -->
+  <footer>
+    <div class="section">
+      <p>@2023.Assignment By Nauman Shabbir</p>
+    </div>
+  </footer>
+  <!-- Complete Footer -->
+
+
+
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+  <!-- BootStrap JS -->
+  <script src="./Bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Toastify JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+
+</html>
